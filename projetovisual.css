@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.site{
+    
+background-color: lightgray;
+display: grid;
+grid-template-columns:5% 30% 30% 30% 5%;    
+grid-template-rows:120px 50px auto auto 80px;    
+    
+}
+
+#topo{
+    
+background-color:#8d99ae;    
+grid-column-start:1;
+grid-column-end:span 5;
+text-align:center;
+align-items:justify;
+height: auto;
+background-image:url(imagens/nomegrande.png);
+    
+}
+
+#menu{
+    
+background-color:#edede9;
+grid-column-start:1;
+grid-column-end:span 5; 
+}
+
+#menu ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+align-items: center;
+height: 100%;
+
+}
+
+#conteudoprincipal{
+    
+background-color:oldlace;
+grid-column: 1/6;
+align-items: justify;
+    
+}
+
+
+#noticias{
+    
+background-color:whitesmoke;
+    
+}
+
+.noticia{
+    
+background-color:ghostwhite;    
+width:80%;
+margin: 10px auto;
+padding: 5px;
+text-align: center;    
+}
+
+.noticia img{
+    
+width: 150px;
+}
+
+#barralateral{
+
+background-color:azure;    
+grid-column-start:4;
+grid-column-end:8;
+grid-row-start:3;
+grid-row-end:5;
+    
+}
+
+#rodape{
+    
+background-color:#edede9;   
+grid-column:1/6; 
+align-items: justify;
+}
